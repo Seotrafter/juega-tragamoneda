@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://juega-tragamoneda.com/sitemap.xml

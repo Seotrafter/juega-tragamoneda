@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a202c;
+  color: #e2e8f0;
+  margin: 0;
+}
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: #2d3748;
+}
+nav a {
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #48bb78;
+}
+section {
+  padding: 4rem 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fadeInLeft {
+  animation: fadeIn 1s ease-in-out both;
+  animation-name: slideInLeft;
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.animate-fadeInRight {
+  animation: fadeIn 1s ease-in-out both;
+  animation-name: slideInRight;
+}
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
